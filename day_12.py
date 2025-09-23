@@ -12,7 +12,7 @@ while True:
     difficulty = input('1- Easy\n2- Hard\n')
     if difficulty == '1':
         attempts = 10
-    if difficulty == '2':
+    elif difficulty == '2':
         attempts = 5
     else:
         print('Wrong choice.')
